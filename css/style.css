@@ -339,13 +339,12 @@ a:hover {
 
 .section-title {
     padding: 10% 0;
-    font-weight: 600;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
 
-#our-works {
-    position: relative;
-    padding-top: 8%;
-}
 
 .content {
     overflow: hidden;
@@ -447,8 +446,7 @@ figcaption p {
 }
 
 .testimonial-box {
-    padding-top: 14%;
-    padding-bottom: 14%;
+    padding: 5% 0;
 }
 
 .testimonial-box {
