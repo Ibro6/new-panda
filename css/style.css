@@ -291,27 +291,27 @@ a:hover {
 }
 
 .icon-design {
-    background-image: url(../img/icons/palette.png);
+    background-image: url(../img/icons/paint-palette.svg);
 }
 
 .icon-care {
-    background-image: url(../img/icons/value.png);
+    background-image: url(../img/icons/group.svg);
 }
 
 .icon-business {
-    background-image: url(../img/icons/profits.png);
+    background-image: url(../img/icons/profits.svg);
 }
 
 .icon-development {
-    background-image: url(../img/icons/network.png);
+    background-image: url(../img/icons/cloud.svg);
 }
 
 .icon-backend {
-    background-image: url(../img/icons/backend.png);
+    background-image: url(../img/icons/coding.svg);
 }
 
 .icon-automation {
-    background-image: url(../img/icons/engineering.png);
+    background-image: url(../img/icons/automation.svg);
 }
 
 
