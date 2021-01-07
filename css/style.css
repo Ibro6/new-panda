@@ -315,6 +315,7 @@ a:hover {
 }
 
 
+
 .why-choose-us-info h5{
     letter-spacing: 2px;
     font-weight: 600;
@@ -337,7 +338,8 @@ a:hover {
 }
 
 .section-title {
-    padding-top: 13%;
+    padding: 10% 0;
+    font-weight: 600;
 }
 
 #our-works {
@@ -600,7 +602,7 @@ input:focus {
 
 .part-header {
     text-align: center;
-    margin-bottom: 35px;
+    margin: 35px 0;
 }
 
 #footer-section {
