@@ -284,17 +284,17 @@ a:hover {
 
 .icon {
     display: inline-block;
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     background-size: cover;
 }
 
 .icon-design {
-    background-image: url(../img/icons/paint-palette.png);
+    background-image: url(../img/icons/palette.png);
 }
 
 .icon-care {
-    background-image: url(../img/icons/care.png);
+    background-image: url(../img/icons/value.png);
 }
 
 .icon-business {
@@ -302,11 +302,11 @@ a:hover {
 }
 
 .icon-development {
-    background-image: url(../img/icons/monitor.png);
+    background-image: url(../img/icons/network.png);
 }
 
 .icon-backend {
-    background-image: url(../img/icons/bracket.png);
+    background-image: url(../img/icons/backend.png);
 }
 
 .icon-automation {
