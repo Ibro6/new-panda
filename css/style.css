@@ -314,7 +314,14 @@ a:hover {
     background-image: url(../img/icons/automation.svg);
 }
 
+.why-choose-us-info{
+    transition: all 0.3s ease;
+}
 
+.why-choose-us-info:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
 
 .why-choose-us-info h5{
     letter-spacing: 2px;
