@@ -322,7 +322,7 @@ a:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
     cursor: pointer;
-    border: 1px solid #626262;
+    /* border: 1px solid #626262; */
     height: 100%;
 }
 
