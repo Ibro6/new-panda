@@ -31,7 +31,13 @@ a:hover {
 	background-size: cover;
 	color: white;
 	padding: 20px;
-	height: 100vh;
+    height: 100vh;
+    
+
+}
+
+#main-part .container {
+    position: relative;
 }
 
 
@@ -84,6 +90,10 @@ a:hover {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.welcome-text {
+    text-align: center;
+}
+
 
 .welcome-text-header {
     font-size: 34pt;
@@ -112,6 +122,29 @@ a:hover {
     letter-spacing: 5px;
 }
 
+
+
+
+.button-consultation {
+    background: none;
+    color: #ffffff;
+    font-size: 25px;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    margin-top: 5%;
+    padding: 10px;
+    transition: all 0.3s ease;
+    letter-spacing: 2px;
+}
+
+.button-consultation:focus {
+    outline: none;
+}
+
+/* .button-consultation:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+} */
 
 @media only screen and (max-width: 479px) and (min-width: 320px) {
 	.welcome-text-header {
@@ -217,8 +250,10 @@ a:hover {
 
 .scroll-button-part {
     display: flex;
-    padding-top: 38vh;
     justify-content: center;
+    position: absolute;
+    top: calC(90vh - 40px);
+    right: calC(50% - 10px);
 }
 
 .scroll-button-part a {
@@ -273,9 +308,16 @@ a:hover {
 
 
 #yellow-line {
-    position: relative;
     background-color: #fdd947;
-    height: 60px;
+    padding: 20px 0;
+}
+
+.yellow-line-text {
+    text-align: center;
+    font-weight: 600;
+    line-height: 15px;
+    font-size: 11px;
+    letter-spacing: 2px;
 }
 
 #why-choose-us {
