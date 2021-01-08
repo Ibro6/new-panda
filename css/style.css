@@ -128,14 +128,14 @@ a:hover {
 .button-consultation {
     background: none;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 10px;
     border: 1px solid #ffffff;
     text-transform: uppercase;
     margin-top: 5%;
     padding: 10px 15px;
     transition: all 0.3s ease;
     letter-spacing: 2px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .button-consultation:focus {
