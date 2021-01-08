@@ -142,12 +142,12 @@ a:hover {
     outline: none;
 }
 
-/* .button-consultation:hover {
+.button-consultation:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
     color: #000000;
     background-color: #ffffff;
-} */
+}
 
 @media only screen and (max-width: 479px) and (min-width: 320px) {
 	.welcome-text-header {
