@@ -132,9 +132,10 @@ a:hover {
     border: 1px solid #ffffff;
     text-transform: uppercase;
     margin-top: 5%;
-    padding: 10px;
+    padding: 10px 15px;
     transition: all 0.3s ease;
     letter-spacing: 2px;
+    font-weight: 600;
 }
 
 .button-consultation:focus {
