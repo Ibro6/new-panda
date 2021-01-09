@@ -225,7 +225,7 @@ a:hover {
 .scroll-button-part {
   position: absolute;
   top: calc(90vh - 40px);
-  right: calc(50vw - 10px);
+  right: calc(50% - 10px);
 }
 
 .scroll-button-part a {
