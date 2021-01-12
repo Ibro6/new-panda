@@ -460,6 +460,7 @@ figcaption p {
   height: 100%;
   color: #fff;
   text-align: center;
+  padding: 4  0px;
 }
 .features-item > * {
   margin-top: 20px;
