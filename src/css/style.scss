@@ -399,7 +399,7 @@ a:hover {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
@@ -544,11 +544,13 @@ figcaption p {
     }
 
     h2 {
-        font-weight: 600;
+        font-size: 16px;
+        font-weight: 500;
     }
 
     span {
-        font-weight: 200;
+        font-size: 12px;
+        font-weight: 100;
     }
 }
    
@@ -650,8 +652,8 @@ figcaption p {
 }
 
 
-.button-for-all-blogs,
-.button-for-submit {
+
+.button-submit {
     border: 1px solid rgb(31, 34, 41);
     background-color: rgb(31, 34, 41);
     -webkit-transition: all .2s ease;
@@ -661,32 +663,20 @@ figcaption p {
     font-weight: 600;
     letter-spacing: 3px;
     display: flex;
-}
-
-.button-for-all-blogs {
-    margin: 70px auto 0;
-    width: 180px;
-    font-size: 12px;
-    padding: 4px 25px;
-}
-
-.button-for-submit {
     margin: 0px auto;
-    width: 120px;
+    max-width: 150px;
     font-size: 14px;
-    padding: 4px 25px;
+    text-align: center;
+    padding: 10px 25px;
 }
 
-.button-for-all-blogs:hover,
-.button-for-submit:hover {
+.button-submit:hover {
 	background-color: transparent;
-	border: 1px solid rgb(31, 34, 41);
 	color: rgb(31, 34, 41);
 }
 
 #form-section {
-    position: relative;
-    padding-bottom: 14%;
+    padding: 5% 0;
 }
 
 label {
