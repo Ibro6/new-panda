@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const {
     CleanWebpackPlugin
 } = require('clean-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
     entry: './src/index.js',
@@ -28,6 +29,14 @@ module.exports = {
         }),
         new CleanWebpackPlugin(),
         new webpack.HotModuleReplacementPlugin(),
+        new CopyWebpackPlugin({
+            patterns: [
+              { from: "./src/assets/img/cleaning.jpg", to: "./src/assets/img/" },
+              { from: "./src/assets/img/like.jpg", to: "./src/assets/img/" },
+              { from: "./src/assets/img/cascade.jpg", to: "./src/assets/img/" },
+              { from: "./src/assets/img/driveway.jpg", to: "./src/assets/img/" },
+            ],
+          })
     ],
     module: {
         rules: [
