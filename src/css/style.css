@@ -289,27 +289,27 @@ a:hover {
 }
 
 .icon-design {
-  background-image: url(../img/icons/paint-palette.svg);
+  background-image: url(../assets/icons/paint-palette.svg);
 }
 
 .icon-care {
-  background-image: url(../img/icons/group.svg);
+  background-image: url(../assets/icons/group.svg);
 }
 
 .icon-business {
-  background-image: url(../img/icons/profits.svg);
+  background-image: url(../assets/icons/profits.svg);
 }
 
 .icon-development {
-  background-image: url(../img/icons/cloud.svg);
+  background-image: url(../assets/icons/cloud.svg);
 }
 
 .icon-backend {
-  background-image: url(../img/icons/coding.svg);
+  background-image: url(../assets/icons/coding.svg);
 }
 
 .icon-automation {
-  background-image: url(../img/icons/automation.svg);
+  background-image: url(../assets/icons/automation.svg);
 }
 
 .why-choose-us-info {
@@ -472,16 +472,16 @@ figcaption p {
   width: 60px;
 }
 .features-item .icon-quality {
-  background-image: url(../img/icons/quality.svg);
+  background-image: url(../assets/icons/quality.svg);
 }
 .features-item .icon-staff {
-  background-image: url(../img/icons/group-svg.svg);
+  background-image: url(../assets/icons/group-svg.svg);
 }
 .features-item .icon-support {
-  background-image: url(../img/icons/support.svg);
+  background-image: url(../assets/icons/support.svg);
 }
 .features-item .icon-delivery {
-  background-image: url(../img/icons/on-time.svg);
+  background-image: url(../assets/icons/on-time.svg);
 }
 .features-item h2 {
   font-weight: 600;
