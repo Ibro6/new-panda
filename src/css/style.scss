@@ -533,14 +533,14 @@ figcaption p {
     }
 
     .icon-staff {
-        background-image: url(../img/icons/group-svg.svg);
+        background-image: url(../img/icons/id.svg);
     }
 
     .icon-support {
-        background-image: url(../img/icons/support.svg);
+        background-image: url(../img/icons/question.svg);
     }
     .icon-delivery {
-        background-image: url(../img/icons/on-time.svg);
+        background-image: url(../img/icons/time.svg);
     }
 
     h2 {
@@ -555,22 +555,27 @@ figcaption p {
 }
    
 
-#testimonial-section {
-    position: relative;
-}
+.testimonial-block {
+    img {
+        border-radius: 50%;
+        width: 120px;
+        margin-bottom: 50px;
+    }
 
-.testimonial-block img{
-    border-radius: 50%;
-    width: 120px;
-    margin-bottom: 50px;
-    color: #626262;
+    h4 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    p {
+        font-size: 13px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        color: #626262;
+    }
 }
 
 .testimonial-box {
     padding: 5% 0;
-}
-
-.testimonial-box {
     font-size: 13px;
     line-height: 23px;
     letter-spacing: 0.02em;

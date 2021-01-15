@@ -5,5 +5,5 @@
 # devide js files
 # divide css as scss modules
 
-
+# always test for adaptive(mobile)
 
