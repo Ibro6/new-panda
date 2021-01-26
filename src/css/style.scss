@@ -1,4 +1,17 @@
-@import './layout/our-work';
+// Pattern style that I did not write
+
+// @import './pattern-styles/corporate';
+// @import './pattern-styles/et-line-icons';
+// @import "./pattern-styles/some";
+
+// Custom styles that I wrote
+
+@import './custom-styles/base';
+@import './custom-styles/our-work';
+@import './custom-styles/services';
+@import './custom-styles/card';
+@import './custom-styles/design';
+
 
 $mouse-height: 40px;
 
@@ -29,15 +42,27 @@ a:hover {
     display: none;
 }
 
+
+
 #main-part {
-	
-	background-image: linear-gradient(to bottom, rgba(37, 37, 37, 1), rgba(3, 3, 14, 0.73)), url(../assets/img/background.jpg);
 	background-size: cover;
 	color: white;
 	padding: 20px;
     height: 100vh;
     
 
+}
+
+.services-main {
+	background-image: linear-gradient(to bottom, rgba(37, 37, 37, 1), rgba(3, 3, 14, 0.73)), url(../assets/img/app-development-background.jpg);
+}
+
+.home-main {
+    background-image: linear-gradient(to bottom, rgba(37, 37, 37, 1), rgba(3, 3, 14, 0.73)), url(../assets/img/background.jpg);
+}
+
+.design-main {
+    background-image: linear-gradient(to bottom, rgba(37, 37, 37, 1), rgba(3, 3, 14, 0.73)), url(../assets/img/bg-design.jpg);
 }
 
 #main-part .container {
@@ -111,17 +136,11 @@ a:hover {
 }
 
 
-
 .welcome-text-content {
-	color: white;
-	text-align: center;
-}
-
-
-
-.welcome-text-content {
+    color: white;
+    text-align: center;
     font-weight: 600;
-    font-size: 9pt;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -141,11 +160,11 @@ a:hover {
     letter-spacing: 2px;
     font-weight: 500;
 
-    &focus {
+    &:focus {
         outline: none;
     }
 
-    &hover {
+    &:hover {
         transform: scale(1.1);
         transition: all 0.3s ease;
         color: #000000;
@@ -495,6 +514,10 @@ figcaption p {
     margin-bottom: 0;
 }
 
+.process {
+    background-image: url(../assets/img/app-development-background.jpg);
+}
+
  /* Features */
 
  .features {
@@ -672,7 +695,7 @@ figcaption p {
     letter-spacing: 3px;
     display: flex;
     margin: 0px auto;
-    max-width: 150px;
+    max-width: 250px;
     font-size: 14px;
     text-align: center;
     padding: 10px 25px;

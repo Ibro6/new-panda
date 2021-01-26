@@ -23,9 +23,18 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'webpack Boilerplate',
             template: path.resolve(__dirname, './src/index.html'), // шаблон
             filename: 'index.html', // название выходного файла
+        }),
+        new HtmlWebpackPlugin({
+            title: 'webpack Boilerplate',
+            template: './src/services.html', // шаблон
+            filename: 'services.html', // название выходного файла
+        }),
+        new HtmlWebpackPlugin({
+            title: 'webpack Boilerplate',
+            template: './src/design.html', // шаблон
+            filename: 'design.html', // название выходного файла
         }),
         new CleanWebpackPlugin(),
         new webpack.HotModuleReplacementPlugin(),

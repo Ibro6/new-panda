@@ -1,0 +1,64 @@
+.process {
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    .container {
+        padding: 100px 0;
+    }
+
+    .section-title {
+        color: #fff;
+        padding: 0 0 70px 0;
+    }
+}
+
+.overlay {
+    min-height: 100%;
+    min-width: 100%;
+    background-color: #151515;
+    opacity: 0.3;
+}
+
+.process-item {
+    height: 100%;
+    color: #fff;
+    text-align: center;
+
+    >* {
+        margin-top: 20px;
+    }
+
+    .icon {
+        display: block;
+        margin: auto;
+        height: 60px;
+        width: 60px;
+    }
+
+    .icon-quality {
+        background-image: url(../assets/icons/search.svg);
+    }
+
+    .icon-staff {
+        background-image: url(../assets/icons/paint-palette-white.svg);
+    }
+
+    .icon-support {
+        background-image: url(../assets/icons/coding-white.svg);
+    }
+
+    .icon-delivery {
+        background-image: url(../assets/icons/refine.svg);
+    }
+
+    h4 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: 100;
+    }
+}

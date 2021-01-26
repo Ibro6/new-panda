@@ -1,0 +1,39 @@
+.corporate-standards .nav-tabs li a {
+    padding: 0 70px !important;
+    display: inline-block !important;
+    min-height: 65px
+}
+
+.corporate-standards-img {
+    min-height: 600px
+}
+
+.corporate-standards-text {
+    min-height: 600px;
+    padding: 5% 11%
+}
+
+.corporate-standards-title {
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 68%;
+    z-index: 5
+}
+
+.corporate-standards-img i {
+    color: #fe6e39 !important
+}
+
+.corporate-standards-text .img-border-small-fix {
+    z-index: -1
+}
+
+.sub-title {
+    border-bottom: 1px solid #e75e50;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 10px;
+    text-transform: uppercase;
+}

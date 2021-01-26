@@ -21,8 +21,11 @@ a:hover {
   display: none;
 }
 
-#main-part {
+.home-main {
   background-image: linear-gradient(to bottom, #252525, rgba(3, 3, 14, 0.73)), url(../img/background.jpg);
+}
+
+#main-part {
   background-size: cover;
   color: white;
   padding: 20px;
@@ -102,7 +105,7 @@ a:hover {
 
 .welcome-text-content {
   font-weight: 600;
-  font-size: 9pt;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 5px;
 }
