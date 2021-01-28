@@ -40,12 +40,16 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin(),
         new CopyWebpackPlugin({
             patterns: [
-              { from: "./src/assets/img/cleaning.jpg", to: "./src/assets/img/" },
-              { from: "./src/assets/img/like.jpg", to: "./src/assets/img/" },
-              { from: "./src/assets/img/cascade.jpg", to: "./src/assets/img/" },
-              { from: "./src/assets/img/driveway.jpg", to: "./src/assets/img/" },
+                {
+                    from: "./src/assets/img/*.jpg",
+                    to: "./",
+                },
+                {
+                    from: "./src/assets/img/*.png",
+                    to: "./",
+                }
             ],
-          })
+        })
     ],
     module: {
         rules: [
@@ -70,9 +74,9 @@ module.exports = {
             {
                 test: /\.(png|jpe?g|gif|svg)$/i,
                 use: [
-                        {
+                    {
                         loader: 'file-loader',
-                    }, 
+                    },
                 ],
             },
         ],

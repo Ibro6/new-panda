@@ -12,13 +12,16 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 </head>
 
 <body>
 
-    <section class="services-main" id="main-part">
+    <section class="services-main main-part">
         <div class="container">
             <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
                 <div class="container header-part">
@@ -54,23 +57,21 @@
                 </div>
             </nav>
 
-            <div class="welcome-text">
-                <h1 class="welcome-text-header">Your Business Needs Are Unique</h1>
+            <div class="main-content">
+                <div class="main-info">
+                    <h1>Your Business Needs Are Unique</h1>
 
-                <p class="welcome-text-content">
-                    Your software solutions should be too
-                </p>
+                    <hr>
 
-                <a href="">
-                    <button type="button" class="button button-consultation">Let’s Chat</button>
-                </a>
+                    <p>Your software solutions should be too.</p>
+
+                    <a href="">
+                        <button type="button" class="button button-submit m-0">Let’s Chat</button>
+                    </a>
+                </div>
+                <img src="./src/assets/img/design-img.png" alt="design-img" width="800" height="600">
             </div>
 
-            <div class="scroll-button-part" id="mouse">
-                <a href="#section-about-us">
-                    <div class="icon-scroll"></div>
-                </a>
-            </div>
         </div>
     </section>
 
@@ -113,38 +114,44 @@
             <div class="row">
                 <div class="card col-4">
                     <h3 class="card-title m-auto">App Development</h3>
-                    <img class="card-img-top" src="https://via.placeholder.com/300x150.png" alt="Card image cap">
-                    <p class="card-text">Complete App development on all major platforms including iOS, Android, and Windows</p>
+                    <img class="card-img-top" src="./src/assets/img/card-img.png" alt="Card image cap">
+                    <p class="card-text">Complete App development on all major platforms including iOS, Android, and
+                        Windows</p>
                 </div>
                 <div class="card col-4">
                     <h3 class="card-title m-auto">Interactive Web Tools</h3>
-                    <img class="card-img-top" src="https://via.placeholder.com/300x150.png" alt="Card image cap">
-                    <p class="card-text">UX-optimized web-based tools from browser interactions to in-depth core user functionality</p>
+                    <img class="card-img-top" src="./src/assets/img/card-img.png" alt="Card image cap">
+                    <p class="card-text">UX-optimized web-based tools from browser interactions to in-depth core user
+                        functionality</p>
                 </div>
                 <div class="card cil-4">
                     <h3 class="card-title m-auto">Data Management</h3>
-                    <img class="card-img-top" src="https://via.placeholder.com/300x150.png" alt="Card image cap">
-                    <p class="card-text">Flexible, scalable, workable data systems, database maintenance, business intelligence, and advanced data visualization</p>
+                    <img class="card-img-top" src="./src/assets/img/card-img.png" alt="Card image cap">
+                    <p class="card-text">Flexible, scalable, workable data systems, database maintenance, business
+                        intelligence</p>
                 </div>
                 <div class="card col-4">
                     <h3 class="card-title m-auto">Integration Support</h3>
-                    <img class="card-img-top" src="https://via.placeholder.com/300x150.png" alt="Card image cap">
-                    <p class="card-text">System integration between internal programs, third-party apps, and custom API development to allow access to external sources</p>
+                    <img class="card-img-top" src="./src/assets/img/card-img.png" alt="Card image cap">
+                    <p class="card-text">System integration between internal programs, third-party apps, and custom API
+                        development to allow access to external sources</p>
                 </div>
                 <div class="card col-4">
                     <h3 class="card-title m-auto">CMS Ad-dons </h3>
-                    <img class="card-img-top" src="https://via.placeholder.com/300x150.png" alt="Card image cap">
-                    <p class="card-text">Upgrade your existing CMS with tailored addons and mods or development of a completely custom CMS designed for your specific business needs</p>
+                    <img class="card-img-top" src="./src/assets/img/card-img.png" alt="Card image cap">
+                    <p class="card-text">Upgrade your existing CMS with tailored addons and mods or development of a
+                        completely custom CMS designed for your specific business needs</p>
                 </div>
                 <div class="card cil-4">
                     <h3 class="card-title m-auto">Process Automation</h3>
-                    <img class="card-img-top" src="https://via.placeholder.com/300x150.png" alt="Card image cap">
-                    <p class="card-text">Behind-the-scenes systems designed for efficiency and simplification of business processes in your office, warehouse, factory, or restaurant</p>
+                    <img class="card-img-top" src="./src/assets/img/card-img.png" alt="Card image cap">
+                    <p class="card-text">Behind-the-scenes systems designed for efficiency and simplification of
+                        business processes in your office, warehouse, factory, or restaurant</p>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <section class="process">
         <div class="overlay">
             <div class="container">
@@ -154,18 +161,20 @@
                         <h2 class="section-title">Our services</h2>
                     </div>
                     <!-- end section title -->
-                </div>                  
+                </div>
                 <div class="row">
                     <div class="process-item col-lg-3 col-sm-6">
                         <div class="icon icon-quality"></div>
                         <h4 class="process-item-title">Define</h4>
-                        <span>We work with you to define your goals, requirements, and the scope of the project until we are confident we will deliver your vision</span>
+                        <span>We work with you to define your goals, requirements, and the scope of the project until we
+                            are confident we will deliver your vision</span>
                     </div>
 
                     <div class="process-item col-lg-3 col-sm-6">
                         <div class="icon icon-staff"></div>
                         <h4>Design</h4>
-                        <span>We model the interface and interactions to ensure an excellent user experience at every level</span>
+                        <span>We model the interface and interactions to ensure an excellent user experience at every
+                            level</span>
                     </div>
                     <div class="process-item col-lg-3 col-sm-6">
                         <div class="icon icon-support"></div>
@@ -175,7 +184,8 @@
                     <div class="process-item col-lg-3 col-sm-6">
                         <div class="icon icon-delivery"></div>
                         <h4>Refine</h4>
-                        <span>We follow an exacting QA process to ensure we deliver a deployment-ready product that meets or exceeds your expectations</span>
+                        <span>We follow an exacting QA process to ensure we deliver a deployment-ready product that
+                            meets or exceeds your expectations</span>
                     </div>
                     <a href="" class="col text-center">
                         <button type="button" class="button button-consultation">Get Started Now</button>
@@ -296,6 +306,64 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="footer-section">
+        <div class="container-fluid">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-md-6 col-sm-3">
+                        <ul class="picture-footer" style="list-style-type: none; padding-left: 0;">
+                            <li style="display: flex;">
+                                <h4>ABOUT US</h4>
+                            </li>
+                        </ul>
+
+
+                        <div class="text-image">
+                            <p>Ciscoders is here to give your business all the perks that come from dedicated teams of
+                                developers,
+                                marketing specialists, and IT pros without the overhead. Leverage the tools you need to
+                                get an
+                                edge
+                                in an increasingly competitive market and still have time to focus on what makes your
+                                business
+                                great.</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 col-md-offset-3">
+                        <h4>COMPANY</h4>
+                        <ul class="footer-list" style="list-style-type: none; padding-left: 0;">
+                            <li><a href="#">ABOUT COMPANY</a></li>
+                            <li><a href="#">WHAT WE DO</a></li>
+                            <li><a href="#">WHAT WE THINK</a></li>
+                            <li><a href="#">CAREERS</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4">
+                        <h4>SERVICES</h4>
+                        <ul class="footer-list" style="list-style-type: none; padding-left: 0;">
+                            <li><a href="#">WEB DEVELOPMENT</a></li>
+                            <li><a href="#">GRAPHIC DESIGN</a></li>
+                            <li><a href="#">COPYWRITING</a></li>
+                            <li><a href="#">ONLINE MARKETING</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4">
+                        <h4>REACH OUT</h4>
+                        <ul class="footer-text" style="list-style-type: none; padding-left: 0;">
+                            <li><a href="#">TEAM MEMBERS</a></li>
+                            <li><a href="#">TESTIMONIALS</a></li>
+                            <li><a href="#">OUR CLIENTS</a></li>
+                            <li><a href="#">CAREERS WITH US</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </section>
 

@@ -1,3 +1,15 @@
+.services-main {
+
+
+    .nav-item a {
+        color: #121013;
+    }
+}
+
+.our-services {
+    padding-bottom: 100px;
+}
+
 .process {
     background-size: cover;
     background-position: center center;
@@ -17,7 +29,7 @@
     min-height: 100%;
     min-width: 100%;
     background-color: #151515;
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 .process-item {
@@ -60,5 +72,18 @@
     span {
         font-size: 14px;
         font-weight: 100;
+    }
+}
+
+.card {
+
+    img {
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+
+        &:hover {
+
+            transform: scale(1.1);
+        }
     }
 }

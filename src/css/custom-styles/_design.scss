@@ -1,3 +1,62 @@
+.design-main {
+    height: 100vh;
+
+    // .navbar {
+    //     background-color: #121013;
+    // }
+
+    // .navbar-scrolled {
+    //     background-color: #ffffff;
+    // }
+    .nav-item a{
+        color: #121013;
+    }
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-info {
+    padding: 25vh 0;
+
+    >* {
+        margin: 30px 0;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        color: #121013;
+    }
+
+    hr {
+        height: 1px;
+        width: 30px;
+        background-color: #fdd947;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        line-height: 38px;
+        max-width: 300px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        max-width: 300px;
+    }
+
+    .button {
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
+
 .new-project {
 
     .section-title {
@@ -6,6 +65,7 @@
 
     .new-project-content {
         max-width: 700px;
+
         padding: 20px;
         background-color: #fdd947;
         margin: auto;
@@ -26,20 +86,26 @@
 }
 
 .stunning {
-    max-width: 800px;
+    background-color: #121013;
     margin: auto;
+    color: #ffffff;
+    padding: 100px;
 
-    .row {
-        max-width: 800px;
+    >* {
+        padding: 10px;
     }
-    
+
+    .container {
+        max-width: 1000px;
+    }
+
     h2 {
         font-weight: 600;
         text-transform: uppercase;
     }
 
     h3 {
-        font-size: 25   px;
+        font-size: 25px;
         font-weight: 600;
         text-transform: uppercase;
     }
@@ -47,5 +113,7 @@
     p {
         font-size: 16px;
         padding: 20px;
+        max-width: 500px;
+        margin: auto;
     }
 }
