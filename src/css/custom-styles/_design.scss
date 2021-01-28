@@ -67,7 +67,7 @@
         max-width: 700px;
 
         padding: 20px;
-        background-color: #fdd947;
+        background-color: $color-yellow;
         margin: auto;
     }
 
@@ -114,6 +114,62 @@
         font-size: 16px;
         padding: 20px;
         max-width: 500px;
+        margin: auto;
+    }
+}
+
+.types {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+
+    .types-title {
+        font-size: 40px;
+    }
+
+    .types-info {
+        max-width: 600px;
+        padding: 40px 0;
+        font-size: 20px;
+    }
+
+    .types-catalog {
+        padding: 50px;
+    }
+
+    .types-item {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $color-yellow;
+    }
+}
+
+.responsive {
+    background-color: #121013;
+    margin: auto;
+    color: #ffffff;
+    padding: 100px;
+
+    >* {
+        padding: 10px;
+    }
+
+    h2 {
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 20px;
+        max-width: 1000px;
         margin: auto;
     }
 }
